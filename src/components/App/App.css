@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-repoList {
+  list-style-type: none;
+  padding: 0 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: max-content;
+  grid-gap: 0.5rem;
+}
+
+.App-repoListItem {
+  display: flex;
+}
+
+.Form {
+  padding: 1rem;
+}
+
+.Form__label {
+  margin-right: 0.5rem;
+}
+
+.Form__input {
+  border: 1px solid #444;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.Form__button {
+  margin-left: 0.5rem;
+  border: 1px solid var(--primary-500);
+  border-radius: 4px;
+  background-color: var(--primary-500);
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+}

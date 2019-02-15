@@ -1,0 +1,27 @@
+.Repo {
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 1rem;
+  flex-grow: 1;
+  display: grid;
+  grid-template-rows: auto 2fr 1fr auto;
+}
+
+.Repo__description,
+.Repo__moreContent {
+  font-weight: normal;
+  flex-grow: 1;
+}
+
+.Repo__moreContent {
+  margin: 1rem 0;
+}
+
+.Repo__toggleExpand {
+  display: inline-block;
+  background-color: var(--primary-100);
+  color: var(--primary-700);
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 0.25rem;
+}
