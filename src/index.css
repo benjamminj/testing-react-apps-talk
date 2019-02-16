@@ -3,7 +3,9 @@
   --primary-300: #c374ea;
   --primary-500: #a934e4;
   --primary-700: #7d13b3;
+  --font-mono: 'SF Mono', 'Menlo', 'Courier New', monospace;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -22,6 +24,7 @@ code {
 h1,
 h2,
 h3 {
+  margin: 0.5em 0;
   font-size: 1rem;
 }
 

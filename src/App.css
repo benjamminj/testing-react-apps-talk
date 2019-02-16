@@ -1,0 +1,57 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: var(--font-mono);
+}
+
+.Home__heading {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.Home__subheading {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.Home__demo {
+  font-size: 2rem;
+}
+
+.Home__footer {
+  position: absolute;
+  display: flex;
+  padding: 1rem;
+  align-items: flex-end;
+  justify-content: space-between;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.Home__social {
+  font-size: 2rem;
+}
+
+@media (max-width: 500px) {
+  .Home__heading {
+    font-size: 3rem;
+  }
+
+  .Home__subheading {
+    font-size: 2rem;
+  }
+
+  .Home__footer {
+    display: block;
+    text-align: center;
+  }
+
+  .Home__social,
+  .Home__demo {
+    font-size: 1.5rem;
+  }
+}

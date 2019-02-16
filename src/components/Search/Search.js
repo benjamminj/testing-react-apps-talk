@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Repo from '../Repo';
 import { fetchRepos } from '../../api/fetchRepos';
-import './App.css';
+import './Search.css';
 
-class App extends Component {
+class Search extends Component {
   state = {
     topic: '',
     repos: [],
@@ -29,7 +29,7 @@ class App extends Component {
     const { repos } = this.state;
 
     return (
-      <div className="App">
+      <div className="Search">
         <form className="Form" onSubmit={this.onSubmitForm}>
           <label className="Form__label" htmlFor="formTopic">
             Topic
@@ -49,9 +49,9 @@ class App extends Component {
         </form>
 
         {repos.length > 0 && (
-          <ul className="App-repoList">
+          <ul className="Search-repoList">
             {repos.map(repo => (
-              <li className="App-repoListItem" key={repo.id}>
+              <li className="Search-repoListItem" key={repo.id}>
                 <Repo {...repo} />
               </li>
             ))}
@@ -62,12 +62,12 @@ class App extends Component {
   }
 }
 
-App.propTypes = {
+Search.propTypes = {
   fetchRepos: PropTypes.func,
 };
 
-App.defaultProps = {
+Search.defaultProps = {
   fetchRepos,
 };
 
-export default App;
+export default Search;
