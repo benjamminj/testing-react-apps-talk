@@ -3,13 +3,6 @@ import { Router, Link } from '@reach/router';
 import { Search } from './components';
 import './App.css';
 
-const links = [
-  {
-    text: '@benjamminj',
-    url: '',
-  },
-];
-
 const Home = () => (
   <>
     <main className="Home">

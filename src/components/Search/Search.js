@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+import React, {
+  Component,
+} from 'react';
 import PropTypes from 'prop-types';
 import Repo from '../Repo';
 import { fetchRepos } from '../../api/fetchRepos';
@@ -21,17 +23,25 @@ class Search extends Component {
     const { fetchRepos } = this.props;
     const { topic } = this.state;
 
-    const repos = await fetchRepos(topic);
+    const repos = await fetchRepos(
+      topic
+    );
     this.setState({ repos });
   };
 
   render() {
-    const { repos } = this.state;
+    const { topic, repos } = this.state;
 
     return (
       <div className="Search">
-        <form className="Form" onSubmit={this.onSubmitForm}>
-          <label className="Form__label" htmlFor="formTopic">
+        <form
+          className="Form"
+          onSubmit={this.onSubmitForm}
+        >
+          <label
+            className="Form__label"
+            htmlFor="formTopic"
+          >
             Topic
           </label>
           <input
@@ -39,23 +49,32 @@ class Search extends Component {
             id="formTopic"
             name="topic"
             type="text"
-            value={this.state.topic}
+            value={topic}
             onChange={this.updateTopic}
             required
           />
-          <button className="Form__button" type="submit">
+          <button
+            className="Form__button"
+            type="submit"
+          >
             Search!
           </button>
         </form>
 
         {repos.length > 0 && (
-          <ul className="Search-repoList">
-            {repos.map(repo => (
-              <li className="Search-repoListItem" key={repo.id}>
-                <Repo {...repo} />
-              </li>
-            ))}
-          </ul>
+          <>
+            <h2>Matching Repos:</h2>
+            <ul className="Search-repoList">
+              {repos.map(repo => (
+                <li
+                  className="Search-repoListItem"
+                  key={repo.id}
+                >
+                  <Repo {...repo} />
+                </li>
+              ))}
+            </ul>
+          </>
         )}
       </div>
     );

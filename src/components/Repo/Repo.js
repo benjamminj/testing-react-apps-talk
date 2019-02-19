@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { addComma } from '../../util'
+import { addComma } from '../../util';
 import './Repo.css';
 
 const Repo = ({ url, name, description, license, stars }) => {
@@ -8,9 +8,7 @@ const Repo = ({ url, name, description, license, stars }) => {
   return (
     <article className="Repo">
       <h2 className="Repo__name">
-        <a href={url} target="_blank" rel="noopener noreferrer">
-          {name}
-        </a>
+        <a href={url}>{name}</a>
       </h2>
       <h3 className="Repo__description">{description}</h3>
 
