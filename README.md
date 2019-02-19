@@ -11,7 +11,6 @@ If you want to get the demo up and running locally, follow these steps
 
 TK steps
 
-<!--
 clone repo
 install deps w/ yarn
 run locally

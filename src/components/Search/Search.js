@@ -26,6 +26,7 @@ class Search extends Component {
     const repos = await fetchRepos(
       topic
     );
+
     this.setState({ repos });
   };
 
@@ -63,7 +64,9 @@ class Search extends Component {
 
         {repos.length > 0 && (
           <>
-            <h2>Matching Repos:</h2>
+            <h2 className="Search__reposHeading">
+              Matching Repos:
+            </h2>
             <ul className="Search-repoList">
               {repos.map(repo => (
                 <li

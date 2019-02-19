@@ -7,10 +7,15 @@
   grid-template-rows: auto 2fr 1fr auto;
 }
 
+.Repo__name {
+  font-size: 1.5rem;
+}
+
 .Repo__description,
 .Repo__moreContent {
   font-weight: normal;
   flex-grow: 1;
+  font-size: 1.25rem;
 }
 
 .Repo__moreContent {
@@ -24,4 +29,5 @@
   font-weight: bold;
   margin: 0 auto;
   padding: 0.25rem;
+  font-size: 1.25rem;
 }

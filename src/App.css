@@ -9,16 +9,12 @@
 
 .Home__heading {
   text-align: center;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .Home__subheading {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
-}
-
-.Home__demo {
-  font-size: 2rem;
 }
 
 .Home__footer {
@@ -32,17 +28,18 @@
   bottom: 0;
 }
 
+.Home__demo,
 .Home__social {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 @media (max-width: 500px) {
   .Home__heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .Home__subheading {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .Home__footer {
@@ -52,6 +49,6 @@
 
   .Home__social,
   .Home__demo {
-    font-size: 1.5rem;
+    font-size: 0.75rem;
   }
 }

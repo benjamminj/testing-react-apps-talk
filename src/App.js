@@ -46,7 +46,7 @@ const App = () => (
       path="/testing-react-apps-talk/"
       default
     />
-    <Search path="/testing-react-apps-talk/search" />
+    <Search path="/testing-react-apps-talk/search/" />
   </Router>
 );
 
