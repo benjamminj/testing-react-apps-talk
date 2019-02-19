@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/testing-react-apps-talk/static/js/runtime~main.9ceadcec.js"
   },
   {
-    "revision": "01008fd0c487b4ee6fba",
-    "url": "/testing-react-apps-talk/static/js/main.01008fd0.chunk.js"
+    "revision": "3985f2bd4760d361f2dc",
+    "url": "/testing-react-apps-talk/static/js/main.3985f2bd.chunk.js"
   },
   {
     "revision": "99d095926346615160cc",
     "url": "/testing-react-apps-talk/static/js/1.99d09592.chunk.js"
   },
   {
-    "revision": "01008fd0c487b4ee6fba",
-    "url": "/testing-react-apps-talk/static/css/main.ce8d5e5a.chunk.css"
+    "revision": "3985f2bd4760d361f2dc",
+    "url": "/testing-react-apps-talk/static/css/main.f704b3ae.chunk.css"
   },
   {
-    "revision": "fa4d5ee2766331552c191e7c3d0c7e34",
+    "revision": "2ce20ed4b788c9b69befc21ffcc29ed3",
     "url": "/testing-react-apps-talk/index.html"
   }
 ];
