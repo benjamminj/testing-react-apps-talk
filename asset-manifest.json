@@ -1,13 +1,13 @@
 {
-  "main.css": "/testing-react-apps-talk/static/css/main.e6466851.chunk.css",
-  "main.js": "/testing-react-apps-talk/static/js/main.bdbca547.chunk.js",
-  "main.js.map": "/testing-react-apps-talk/static/js/main.bdbca547.chunk.js.map",
-  "static/js/1.6bbf47df.chunk.js": "/testing-react-apps-talk/static/js/1.6bbf47df.chunk.js",
-  "static/js/1.6bbf47df.chunk.js.map": "/testing-react-apps-talk/static/js/1.6bbf47df.chunk.js.map",
+  "main.css": "/testing-react-apps-talk/static/css/main.ce8d5e5a.chunk.css",
+  "main.js": "/testing-react-apps-talk/static/js/main.7d6c0d22.chunk.js",
+  "main.js.map": "/testing-react-apps-talk/static/js/main.7d6c0d22.chunk.js.map",
+  "static/js/1.99d09592.chunk.js": "/testing-react-apps-talk/static/js/1.99d09592.chunk.js",
+  "static/js/1.99d09592.chunk.js.map": "/testing-react-apps-talk/static/js/1.99d09592.chunk.js.map",
   "runtime~main.js": "/testing-react-apps-talk/static/js/runtime~main.9ceadcec.js",
   "runtime~main.js.map": "/testing-react-apps-talk/static/js/runtime~main.9ceadcec.js.map",
-  "static/css/main.e6466851.chunk.css.map": "/testing-react-apps-talk/static/css/main.e6466851.chunk.css.map",
+  "static/css/main.ce8d5e5a.chunk.css.map": "/testing-react-apps-talk/static/css/main.ce8d5e5a.chunk.css.map",
   "index.html": "/testing-react-apps-talk/index.html",
-  "precache-manifest.7caf91765e8259078dfd2404ef3a1099.js": "/testing-react-apps-talk/precache-manifest.7caf91765e8259078dfd2404ef3a1099.js",
+  "precache-manifest.ea4fc6b57324c95ec88e3c59741cb533.js": "/testing-react-apps-talk/precache-manifest.ea4fc6b57324c95ec88e3c59741cb533.js",
   "service-worker.js": "/testing-react-apps-talk/service-worker.js"
 }
