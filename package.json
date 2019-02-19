@@ -12,6 +12,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "yarn build && gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -27,6 +28,7 @@
   "devDependencies": {
     "gh-pages": "^2.0.1",
     "jest-dom": "^3.0.2",
-    "react-testing-library": "^5.5.4"
+    "react-testing-library": "^5.5.4",
+    "serve": "^10.1.2"
   }
 }
