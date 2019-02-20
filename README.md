@@ -6,7 +6,7 @@ If you'd like to play around with the demo app you can do so at this link: https
 
 ## Getting up and running
 
-If you want to get the demo up and running locally, the fastest way is to check out the project on [CodeSandbox]()! If you haven't used CodeSandbox, it's an online IDE that has _everything_ pre-installed and ready to go! All you've got to do is click the link and you're up and running!
+If you want to get the demo up and running locally, the fastest way is to check out the project on [CodeSandbox](https://codesandbox.io/s/github/benjamminj/testing-react-apps-talk)! If you haven't used CodeSandbox, it's an online IDE that has _everything_ pre-installed and ready to go! All you've got to do is click the link and you're up and running!
 
 If you'd prefer to run the code on your own computer, you can get up and running with the following steps:
 

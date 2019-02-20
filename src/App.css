@@ -9,11 +9,13 @@
 
 .Home__heading {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
+  margin: 0;
 }
 
 .Home__subheading {
-  font-size: 3rem;
+  font-size: 2.75rem;
+  margin: 0.5em 0 0;
   text-align: center;
 }
 
@@ -30,7 +32,7 @@
 
 .Home__demo,
 .Home__social {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 @media (max-width: 500px) {
@@ -49,6 +51,6 @@
 
   .Home__social,
   .Home__demo {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 }

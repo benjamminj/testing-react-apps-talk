@@ -23,7 +23,9 @@ class Repo extends Component {
       license,
       stars,
     } = this.props;
+
     const { isOpen } = this.state;
+
     return (
       <article className="Repo">
         <h2 className="Repo__name">
