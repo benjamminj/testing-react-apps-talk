@@ -1,6 +1,7 @@
 import React, {
   Component,
 } from 'react';
+import PropTypes from 'prop-types';
 import { addComma } from '../../util';
 import './Repo.css';
 
@@ -67,5 +68,13 @@ class Repo extends Component {
     );
   }
 }
+
+Repo.propTypes = {
+  url: PropTypes.string,
+  name: PropTypes.string,
+  description: PropTypes.string,
+  license: PropTypes.string,
+  stars: PropTypes.number,
+};
 
 export default Repo;
